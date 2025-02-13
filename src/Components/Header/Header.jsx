@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import "./Header.css";
+import styles from "./Header.module.css";
+import Logo from "../../Assets/App-Icon.png";
+import { useState } from "react";
+import { Ioclosed } from "react-icons/io5";
 
 const Header = () => {
   const { NavOpen, setNavOpen } = useState(false);
@@ -12,7 +15,10 @@ const Header = () => {
   };
   return (
     <header>
-      <nav className={NavOpen ? "open" : ""}>
+      <div className={styles.container}>
+        <div className={styles.logo}>
+          <img src={Logo} alt="Logo" />
+        </div>
         <ul>
           <li>
             <NavLink to="/" onClick={handleNavLinkClick}>
@@ -35,7 +41,7 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-      </nav>
+      </div>
       <button onClick={handleNavToggle}>Toggle Nav</button>
     </header>
   );

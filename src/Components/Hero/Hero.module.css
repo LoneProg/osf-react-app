@@ -4,11 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 20rem 0;
+  padding: 10rem 0;
 }
 
 .hero {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -16,7 +16,9 @@
   font-family: Lato;
   font-weight: 900;
   font-size: 64px;
+  color: #fff;
   line-height: 76.8px;
+  width: 60%;
 }
 
 .hero p {
@@ -24,7 +26,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 32.04px;
-  width: 55%;
+  width: 45%;
   color: #fff;
   padding: 1.5rem 0;
 }
@@ -33,7 +35,8 @@
   font-weight: 700;
   font-size: 22px;
   color: #fff;
-  background-color: blue;
+  background-color:#1429A9;
   border-radius: 8px;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
+  cursor: pointer;
 }

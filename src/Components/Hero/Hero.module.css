@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  background-image: url("/src/Assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20rem 0;
+}
+
+.hero {
+  width: 80%;
+  margin: auto;
+}
+
+.hero h2 {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 76.8px;
+}
+
+.hero p {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.04px;
+}
+
+.hero button {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}

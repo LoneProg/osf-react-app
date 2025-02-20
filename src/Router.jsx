@@ -12,7 +12,7 @@ const Router = () => {
             element: <Home />
         },
         {
-            path: 'About-Us ',
+            path: '/About-Us ',
             element: <About />
         },
         {

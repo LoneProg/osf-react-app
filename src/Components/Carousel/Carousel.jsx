@@ -1,8 +1,8 @@
 import React from 'react'
-import { BiDotsHorizontal } from 'react-icons/bi'
 import Slider from 'react-slick'
+import style from './Carousel.module.css'
 
-export default function Carousel () {
+export default function Autoplay () {
     var settings = {
         dots: true,
         infinite: true,
@@ -11,23 +11,23 @@ export default function Carousel () {
         slidesToScroll: 1
     }
   return (
-    <Slider {...settings}>
-    <div>
+    <Slider {...settings} className={style.content}>
+    <div className={style.content}>
       <h3>1</h3>
     </div>
-    <div>
+    <div className={style.content}>
       <h3>2</h3>
     </div>
-    <div>
+    <div className={style.content}>
       <h3>3</h3>
     </div>
-    <div>
+    <div className={style.content}>
       <h3>4</h3>
     </div>
-    <div>
+    <div className={style.content}>
       <h3>5</h3>
     </div>
-    <div>
+    <div className={style.content}>
       <h3>6</h3>
     </div>
   </Slider>

@@ -1,12 +1,11 @@
 import React from 'react'
 
-
-const Contact = () => {
+const Props = () => {
   return (
     <div>
-      
+      <h1>test</h1>
     </div>
   )
 }
 
-export default Contact
+export default Props
